@@ -1,0 +1,37 @@
+<img src="assets/css/unnamed.png" alt="burger" >
+
+<h1>Eat-Da-Burger!</h1>
+
+<h2>Yummy Burgers Left :D </h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burger-block}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Yummy Burgers gone :(</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+    <li>
+      {{ burger_name}}
+      <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+    </li>
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Make a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="burger_name" required>
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
