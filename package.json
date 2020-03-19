@@ -1,0 +1,26 @@
+{
+  "name": "burgers",
+  "version": "1.0.0",
+  "description": "Burger app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RimaOdolski/Burgers.git"
+  },
+  "author": "Rima Odolski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RimaOdolski/Burgers/issues"
+  },
+  "homepage": "https://github.com/RimaOdolski/Burgers#readme"
+}
