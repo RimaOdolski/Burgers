@@ -1,6 +1,6 @@
 const express = require('express');
-
-const PORT = process.env.PORT || 8080;
+require('dotenv').config() ;
+const PORT = process.env.PORT || 8081;
 
 let app = express();
 

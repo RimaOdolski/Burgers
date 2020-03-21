@@ -3,7 +3,8 @@
   }
   
   body {
-    background-image: url("assets/css/3884518-ch_OyD3kWmP (1).png");
+    background-image: url("/css/backgroundimg.png");
+    background-size: cover;
   }
   
   li {
