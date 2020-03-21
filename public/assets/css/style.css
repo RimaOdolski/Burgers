@@ -3,9 +3,8 @@
   }
   
   body {
-    background-image: url('/public/assets/images/backgroundimg.png');
+    background-image: url('/images/backgroundimg.png');
     background-size: cover;
-    background-color:lightgray;
   }
   
   li {
