@@ -16,3 +16,5 @@ npm install the following dependencies:
 * express-handlebars
 * mysql
 
+![App Snippet](public/assets/images/snippet.png)
+
